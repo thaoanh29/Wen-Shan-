@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan-Fago | Tinh Hoa Quà Tặng Hà Giang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@10.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50; /* Màu xanh đen sang trọng */
+            --accent-color: #b8860b;  /* Màu vàng gold cao cấp */
+            --bg-light: #f9f9f9;
+        }
+        body { font-family: 'Roboto', sans-serif; color: #333; line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--primary-color); }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1597481499750-3e6b22637e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .navbar-brand { font-family: 'Playfair Display', serif; font-weight: bold; color: var(--accent-color) !important; }
+        .section-padding { padding: 80px 0; }
+        .card { border: none; transition: 0.3s; background: var(--bg-light); }
+        .card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .price-tag { color: var(--accent-color); font-weight: bold; font-size: 1.2rem; }
+        .btn-gold { background-color: var(--accent-color); color: white; border-radius: 0; padding: 10px 30px; }
+        .btn-gold:hover { background-color: #966d09; color: white; }
+        footer { background: var(--primary-color); color: white; padding: 40px 0; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">SHAN-FAGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#business">Kế hoạch kinh doanh</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-3 mb-3">Đại sứ Quà tặng Cao cấp</h1>
+            <p class="lead mb-4">Kết tinh từ Trà cổ thụ và Rượu hạ thổ Hà Giang</p>
+            <a href="#products" class="btn btn-gold">KHÁM PHÁ NGAY</a>
+        </div>
+    </header>
+
+    <section id="about" class="container section-padding">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="mb-4">Tầm nhìn Dự án</h2>
+                <p>Dự án <strong>Shan-Fago</strong> hướng tới phát triển dòng quà tặng cao cấp, đề cao giá trị văn hóa truyền thống dành cho phân khúc khách hàng trung và thượng lưu.</p>
+                <p>Chúng tôi không chỉ bán sản phẩm, chúng tôi kể câu chuyện về di sản, con người và hành trình lan tỏa giá trị bản địa của vùng cao nguyên đá Hà Giang.</p>
+                <ul>
+                    <li>Trà Shan Tuyết cổ thụ hàng trăm năm tuổi.</li>
+                    <li>Rượu Tam Giác Mạch hạ thổ men lá truyền thống.</li>
+                    <li>Cá nhân hóa trải nghiệm cho doanh nghiệp.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-light border-start border-4 border-warning">
+                    <h5>Đơn vị thực hiện:</h5>
+                    <p class="mb-1"><strong>Học viện Phụ nữ Việt Nam</strong></p>
+                    <p class="mb-0">Thành viên: Phàn Thị Tỉnh - Nguyễn Mai Thảo Anh</p>
+                    <p>Hướng dẫn: TS. Lê Thị Hằng</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="bg-light section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">Dòng Sản Phẩm Thượng Hạng</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <h3>Combo Shan-Fago</h3>
+                            <p class="text-muted">Chiến lược B2B/B2C</p>
+                            <p>Trà cổ thụ & Rượu hạ thổ kèm bao bì sang trọng thiết kế theo module.</p>
+                            <p class="price-tag">3.500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <h3>Rượu Tam Giác Mạch</h3>
+                            <p class="text-muted">Super Premium</p>
+                            <p>Hạ thổ lâu năm trong chai gốm sứ thủ công. Vị thơm bùi, không đau đầu.</p>
+                            <p class="price-tag">1.200.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 p-3 text-center">
+                        <div class="card-body">
+                            <h3>Trà Shan Tuyết</h3>
+                            <p class="text-muted">Quý hiếm</p>
+                            <p>Thu hoạch thủ công từ cây cổ thụ, sản lượng hạn chế, hương thơm hậu ngọt.</p>
+                            <p class="price-tag">1.800.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business" class="container section-padding">
+        <h2 class="text-center mb-5">Tiềm Năng Dự Án 2026</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Chỉ số tài chính</th>
+                        <th>Giá trị dự kiến (2026)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tổng doanh thu dự kiến</td>
+                        <td class="fw-bold text-success">8.005.000.000 VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td>Sản lượng Combo tiêu thụ</td>
+                        <td>1.430 bộ</td>
+                    </tr>
+                    <tr>
+                        <td>Vốn đầu tư ban đầu</td>
+                        <td>2.050.000.000 VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td>Thời gian hoàn vốn</td>
+                        <td>23 - 25 tháng</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container text-center">
+            <h2 class="text-white mb-4">Liên Hệ Hợp Tác</h2>
+            <p>Trưởng nhóm: <strong>Phàn Thị Tỉnh</strong></p>
+            <p>SĐT: 0337 039 881 | Email: phanthitinh022@gmail.com</p>
+            <p>Địa chỉ: Học viện Phụ nữ Việt Nam - Luật kinh tế A, Khóa 12</p>
+            <hr class="bg-light w-25 mx-auto">
+            <small>&copy; 2026 Shan-Fago Project. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@10.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
